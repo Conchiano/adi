@@ -1,0 +1,15 @@
+public string GetPlayerName()
+{
+string Player1;
+Player1 = GetString(txtBxPlayer1.Text);
+
+string Player2;
+Player2 = GetString(txtBxPlayer2.Text);
+}
+
+under Form Load
+Player1 = Player1.GetPlayerName();
+this.lblPlayer1.Text = Player1;
+
+Player2 = Player2.GetPlayerName();
+this.lblPlayer2.Text = Player2;
